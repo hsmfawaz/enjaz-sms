@@ -24,10 +24,7 @@ class EnjazSmsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // Register facade
-        $this->app->singleton('enjaz-sms', function () {
-            return new EnjazSms;
-        });
+
     }
 
     /**
